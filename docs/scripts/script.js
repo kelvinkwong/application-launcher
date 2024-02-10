@@ -26,6 +26,8 @@ function httpGet(data, cb) {
 
 function publish_app_history(){
     let history = JSON.parse(localStorage.getItem('history'));
+    history = history ? history : [];
+
     history.unshift({'name': 'exit'})
     for ([index, app] of history.entries())
         app.name = index + '. ' + app.name
@@ -186,7 +188,7 @@ function save_launch_history(app_name, app_url){
     let history = localStorage.getItem('history');
     history = history ? JSON.parse(history) : [];
 
-    if (app_name == history[0].name)
+    if (history[0] && app_name == history[0].name)
         return;
 
     let newHistory = {'name': app_name, 'uri': app_url};

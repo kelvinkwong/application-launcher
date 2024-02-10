@@ -25,7 +25,7 @@ body {
   overflow: hidden;
 }
 
-.container {
+.column {
   float: left;
   width: 50%;
   height: 100%;
@@ -33,11 +33,11 @@ body {
   overflow-y: hidden;
 }
 
-.history-container {
+#history {
   background-color: black;
 }
 
-.apps-container {
+#apps {
 }
 
 .app-line {
