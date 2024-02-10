@@ -1,0 +1,8 @@
+{
+    "apps": [
+        {
+            "name": "webgl",
+            "uri": "./index.html?apps=./resources/webgl.json"
+        }
+    ]
+}

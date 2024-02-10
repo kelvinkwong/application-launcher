@@ -1,0 +1,16 @@
+{
+    "apps": [
+        {
+            "name": "aquarium",
+            "uri": "https://webglsamples.org/aquarium/aquarium.html"
+        },
+        {
+            "name": "google io 2011",
+            "uri": "https://webglsamples.org/google-io/2011/lots-of-objects-google.html"
+        },
+        {
+            "name": "pasta",
+            "uri": "https://alteredqualia.com/three/examples/webgl_pasta.html"
+        }
+    ]
+}
