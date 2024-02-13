@@ -16,8 +16,8 @@ html, body {
 body {
   /*background: rgb(44, 131, 185);*/
   background: darkslategrey;
-  width: 1280px;
-  height: 720px;
+  width: 100%;
+  height: 100%;
   position: absolute;
   left: 0;
   top: 0;
