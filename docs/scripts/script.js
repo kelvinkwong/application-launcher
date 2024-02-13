@@ -151,6 +151,7 @@ function onKey(event) {
             break;
 
         case KEY_BACK:
+        case KEY_ESCAPE:
             window.history.back();
             break;
 
