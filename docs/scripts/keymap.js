@@ -33,4 +33,5 @@ var KEY_SPACE = 32,
     KEY_PAUSE = 19,
     KEY_STOP = 178,
     KEY_RW = 128,
-    KEY_FF = 129;
+    KEY_FF = 129,
+    KEY_ESCAPE = 27;
